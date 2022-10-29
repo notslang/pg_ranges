@@ -52,9 +52,9 @@ defmodule PgRanges.MixProject do
       {:decimal, "~> 1.0 or ~> 2.0"},
 
       # dev/test deps
-      {:tzdata, "~> 1.0", only: [:dev, :test]},
-      {:excoveralls, "~> 0.10.4", only: [:test]},
-      {:ex_doc, "~> 0.19", only: :dev, runtime: false}
+      {:tzdata, "~> 1.1", only: [:dev, :test]},
+      {:excoveralls, "~> 0.14", only: :test},
+      {:ex_doc, "~> 0.29.0", only: :dev, runtime: false}
     ]
   end
 
