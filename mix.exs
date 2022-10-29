@@ -53,9 +53,6 @@ defmodule PgRanges.MixProject do
 
       # dev/test deps
       {:tzdata, "~> 1.0", only: [:dev, :test]},
-      {:phoenix_html, "~> 2.13", only: [:dev, :test]},
-      {:jason, "~> 1.1", only: [:dev, :test]},
-      {:poison, "~> 3.0", only: [:dev, :test]},
       {:excoveralls, "~> 0.10.4", only: [:test]},
       {:ex_doc, "~> 0.19", only: :dev, runtime: false}
     ]
